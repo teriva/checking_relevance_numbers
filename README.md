@@ -1,9 +1,11 @@
-To check the correctness of the rooms on the website is necessary in the method check_relevance_numbers to pass a two dimensional array.
-Array format [[url, {number, number}], [url, {number, number}]]
+checking_relevance_numbers
+=====================
+**To check the correctness of the rooms on the website is necessary in the method check_relevance_numbers to pass a two dimensional array, the numbers are transferred in a set. Array format [[url, {number, number}], [url, {number, number}]]**
 
-code usage example:
-
-    import main
+**code usage example:**
+    
+```
+ import main
 
     test_data = [
         ["https://www.auchan.ru/pokupki/eda/bakaleja/krupy-boby/goroh.html", {'88007005800'}],
@@ -18,5 +20,5 @@ code usage example:
          {'88003336250', '84956637724', '84956637722', '88126779122', '88002220022', '84952522603', '84999558613',
           '84952522788', '88003336150', '88125021713', '84956467437'}]
     ]
-
     main.check_relevance_numbers(test_data)
+```
