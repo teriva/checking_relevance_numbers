@@ -1,0 +1,4 @@
+#dependencies can be set using pip3
+
+beautifulsoup4
+requests
