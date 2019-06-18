@@ -1,3 +1,22 @@
+get_all_numbers
+=====================
+**displays all numbers found. Url list is waiting for input**
+```
+import main
+test_data = [
+    "https://www.auchan.ru/pokupki/eda/bakaleja/krupy-boby/goroh.html",
+        "https://repetitors.info/",
+        "https://hands.ru/company/about/",
+        "https://dodopizza.ru/dmitrov/moskovskaya23a",
+        "https://dm.pizzeriaantonio.ru/",
+        "https://ipizza.ru/",
+        "https://www.perekrestok.ru",
+        "http://prosto-food.ru/",
+        "https://www.delivery-club.ru/contacts/"
+    ]
+
+main.get_all_numbers(test_data)
+```
 checking_relevance_numbers
 =====================
 **To check the correctness of the rooms on the website is necessary in the method check_relevance_numbers to pass a two dimensional array, the numbers are transferred in a set. Array format [[url, {number, number}], [url, {number, number}]]**
@@ -5,6 +24,7 @@ checking_relevance_numbers
 **code usage example:**
     
 ```
+import main
 test_data = [
     ["https://www.auchan.ru/pokupki/eda/bakaleja/krupy-boby/goroh.html", {'88007005800'}],
         ["https://repetitors.info/", {'88005555676', '84955405676'}],
