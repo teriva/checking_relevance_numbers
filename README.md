@@ -1,7 +1,7 @@
 checking_relevance_numbers
 =====================
-**To check the correctness of the rooms on the website is necessary in the method check_relevance_numbers to pass a two dimensional array.
-Array format [[url, {number, number}], [url, {number, number}]]**
+**To check the correctness of the rooms on the website is necessary in the method check_relevance_numbers to pass a two dimensional array, the numbers are transferred in a set. Array format [[url, {number, number}], [url, {number, number}]]
+**
 
 **code usage example:**
     
