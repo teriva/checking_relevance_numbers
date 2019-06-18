@@ -31,7 +31,7 @@ def clear_number(string):
 
 
 def change_7_to_8(number):
-    if number[0] == 7:
+    if number[0] == '7':
         number = '8' + number[1:]
     elif number[0] == "+":
         number = '8' + number[2:]
@@ -72,7 +72,7 @@ def parse(url, headers):
             divs = soup.find_all('div', text=REGULAR_EXPRESSION_DIV)
             for div in divs:
                 number = div.text
-                numbers.add(extract_number(number))
+                numbers.add(change_7_to_8(extract_number(number)))
 
         return [numbers, str(time.time() - time_start)]
     else:
