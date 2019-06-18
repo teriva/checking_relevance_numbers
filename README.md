@@ -1,6 +1,8 @@
 get_all_numbers
 =====================
-**displays all numbers found. Url list is waiting for input**
+**displays all numbers found. Url list is waiting for input.**
+
+code usage example:**
 ```
 import main
 test_data = [
