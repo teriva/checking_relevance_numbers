@@ -5,10 +5,8 @@ checking_relevance_numbers
 **code usage example:**
     
 ```
- import main
-
-    test_data = [
-        ["https://www.auchan.ru/pokupki/eda/bakaleja/krupy-boby/goroh.html", {'88007005800'}],
+test_data = [
+    ["https://www.auchan.ru/pokupki/eda/bakaleja/krupy-boby/goroh.html", {'88007005800'}],
         ["https://repetitors.info/", {'88005555676', '84955405676'}],
         ["https://hands.ru/company/about/", {'84951370720'}],
         ["https://dodopizza.ru/dmitrov/moskovskaya23a", {'88003020060'}],
@@ -20,5 +18,6 @@ checking_relevance_numbers
          {'88003336250', '84956637724', '84956637722', '88126779122', '88002220022', '84952522603', '84999558613',
           '84952522788', '88003336150', '88125021713', '84956467437'}]
     ]
-    main.check_relevance_numbers(test_data)
+
+main.check_relevance_numbers(test_data)
 ```
